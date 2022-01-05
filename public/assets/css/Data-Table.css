@@ -1,0 +1,13 @@
+#example {
+  margin-bottom: 0;
+}
+
+table {
+  background-color: white;
+}
+
+table td {
+  text-align: center;
+  vertical-align: middle;
+}
+

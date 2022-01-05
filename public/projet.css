@@ -1,0 +1,104 @@
+/*---------------------------------------PARTIE CONCERNANT L'ACCUEIL----------------------------------------*/
+
+
+#menu li {
+ display: inline-block;
+ margin-right: 1px ;
+ background: #00aa00 ;
+}
+
+#menu {
+ 	margin: 0 ;
+ 	padding: 0 ;
+ 	list-style: none ;
+ 	text-align: center ;
+}
+
+#menu li a {
+	 display : inline-block;
+	 width : 350px;
+	 height : 40px;
+	 color: white;
+	 border: 1px solid black;
+	 font: 1em Arial,sans-serif;
+	 line-height: 40px;
+	 text-align: center;
+	 text-decoration: none;
+}
+
+#menu li a:hover {
+ background: #00ff00 ;
+ text-decoration: underline ;
+}
+
+
+
+section {
+	margin: auto;
+	width: 65%;
+	border :1px solid black;
+}
+
+article {
+	width: 75%;
+	float :right;
+	border: 1px solid pink;
+	padding-left: 5px;
+
+}
+
+aside{
+	width: 20%;
+	border: 1px solid blue;
+	padding-top: 1em;
+
+}
+
+.flex{
+	display: flex;
+	flex-direction: row; 
+	flex-wrap: wrap;
+	
+}
+.card{
+
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	margin-bottom: 5px;
+}
+
+.card:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container{
+	padding: 2px 16px;
+}
+
+#filtre li{
+	margin-bottom: 1em;
+	border : 1px solid red;
+	border-radius: 4px;
+
+}
+
+#filtre li:hover{
+	text-decoration: underline ;
+	background-color: lightgrey;
+
+}
+
+
+
+
+
+/*---------------------------------------FIN DE LA PARTIE CONCERNANT L'ACCUEIL------------------------------*/
+
+
+
+
+MAISON
+	NB DE SALLE D'EAU
+	NOMBRE DE CHAMBRE
+	NOM DE PIECE etc...
+	

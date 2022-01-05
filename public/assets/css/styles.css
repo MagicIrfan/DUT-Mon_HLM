@@ -1,0 +1,244 @@
+.footer {
+  color: black;
+  position: fixed;
+  bottom: 0;
+  width: 125%;
+  margin-left: -12.5%;
+  background: var(--light);
+  left: 0;
+  text-align: center;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+.formulaire_donnees {
+  display: grid;
+  padding-left: 20px;
+  /*float: right;*/
+}
+
+.form-horizontal {
+  padding: 30px 20px;
+  margin-bottom: 5vh;
+  background-color: rgba(241,235,235,0.44);
+  /*box-shadow: 10px 5px 5px;*/
+  /*background-color: rgb(46,46,54);*/
+  margin-top: 0px;
+}
+
+.centerbutton {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.input-profil {
+  background-color: rgba(241,235,235,0.6);
+}
+
+.fa.fa-user {
+  font-size: 35px;
+}
+
+html {
+  background-color: rgb(46,46,54);
+}
+
+html, body {
+  height: 100%;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: 15px;
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+center-img {
+  height: 170px;
+  width: 50px;
+}
+
+.carousel-inner img {
+  width: 500px!important;
+  height: 400px;
+  object-fit: cover;
+}
+
+.c-paragraphe {
+  color: rgb(255,255,255);
+}
+
+.material-icons {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.form-group p {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.title {
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.card-block {
+  font-size: 1em;
+  position: relative;
+  margin: 0;
+  padding: 1em;
+  border: none;
+  border-top: 1px solid rgba(34, 36, 38, .1);
+  box-shadow: none;
+}
+
+.card {
+  font-size: 1em;
+  overflow: hidden;
+  padding: 5px;
+  border: none;
+  border-radius: .28571429rem;
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  margin-top: 20px;
+}
+
+.carousel-indicators li {
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  background-color: #404040;
+}
+
+.carousel-indicators li {
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  background-color: #404040;
+}
+
+.btn {
+  margin-top: auto;
+}
+
+#annonce {
+  border: solid white;
+  border-left: none;
+  border-right: none;
+}
+
+#carouselExampleIndicators {
+  max-width: 50%;
+}
+
+.carousel-indicator {
+  position: fixed;
+  bottom: 0;
+}
+
+#MailDestinataire {
+  color: #ffffff;
+}
+
+#ObjetDestinataire {
+  color: #ffffff;
+  height: 24px;
+  margin-bottom: -20px;
+}
+
+#EffacerBouton {
+  margin-left: 30px;
+}
+
+.row.div-message {
+  max-height: 120px;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: white;
+  margin-bottom: 25px;
+  /*border-radius: 30px;*/
+}
+
+.cheat-text {
+  border-right: solid 1px black;
+}
+
+.cheat-text {
+  margin-bottom: 250px;
+}
+
+form, label {
+  color: white;
+  margin-top: 10px;
+}
+
+form input {
+  border: none;
+  border-bottom: 2px solid red;
+  background-color: rgb(50,50,59);
+  color: white;
+}
+
+form select {
+  border-radius: 4px;
+}
+
+.card-text a {
+  vertical-align: bottom;
+}
+
+.annonce-uti {
+  max-width: 73%;
+  margin-right: 50px;
+  /*margin-left: -20px;*/
+  min-width: 60%;
+}
+
+.annonce-uti img {
+  width: 25px;
+}
+
+.bot-button {
+  position: relative;
+}
+
+.bot-button span {
+  position: absolute;
+  bottom: 0;
+  /*display: block;*/
+  /*bottom: 0;*/
+  left: 0;
+  margin-left: 25px;
+}
+
+.annonce-parent {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 30px;
+grid-row-gap: 15px; 
+}
+
+.div1-annonce { grid-area: 1 / 1 / 2 / 2; }
+.div2-annonce { grid-area: 2 / 1 / 3 / 2; }
+.div3-annonce { grid-area: 2 / 2 / 3 / 3; } 
+.div4-annonce { grid-area: 3 / 1 / 4 / 2; } 
+.div5-annonce { grid-area: 4 / 1 / 5 / 2; } 
+
